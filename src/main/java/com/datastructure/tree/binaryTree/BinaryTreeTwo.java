@@ -1,4 +1,4 @@
-package com.datastructure.tree;
+package com.datastructure.tree.binaryTree;
 
 /**
  * @author qiang.wen
