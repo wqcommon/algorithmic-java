@@ -10,6 +10,8 @@ public class Vertex {
 
     protected int label;//标识
 
+    public Vertex(){}
+
     public Vertex(int label) {
         this.label = label;
     }

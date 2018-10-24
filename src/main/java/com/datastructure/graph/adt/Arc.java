@@ -12,6 +12,8 @@ public class Arc {
 
     protected Vertex headVertex;//弧头
 
+    public Arc(){}
+
     public Arc(Vertex tailVertex, Vertex headVertex) {
         this.tailVertex = tailVertex;
         this.headVertex = headVertex;

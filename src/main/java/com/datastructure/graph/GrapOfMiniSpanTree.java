@@ -13,6 +13,10 @@ import java.util.List;
  * @date 2018/10/23 14:35
  *
  *  图的最小生成树
+ *
+ *  普里姆算法与克鲁斯卡尔算法的比较：
+ *  1、普里姆算法对于稠密图（边数非常多，顶点数偏少）会更适用
+ *  2、克鲁斯卡尔算法针对边，边数少（稀疏图）效率会非常高
  */
 public class GrapOfMiniSpanTree {
 
@@ -39,14 +43,17 @@ public class GrapOfMiniSpanTree {
 //        }
         //克鲁斯卡尔算法
         UndirectedNetworkOfEdgeArray graph = buildGrapOfEdgeArray();
-        for(Vertex v : graph.getVertexArr()){
-            System.out.print(v.getLabel() + ",");
+//        for(Vertex v : graph.getVertexArr()){
+//            System.out.print(v.getLabel() + ",");
+//        }
+//        System.out.println();
+//        for(UndirectedNetworkOfEdgeArray.EdgeWithIdx edge : graph.getEdgeArr()){
+//            System.out.println("(" + edge.beginIdx + "," + edge.endIdx + ") => 权值：" + edge.weight);
+//        }
+        List<EdgeWithWeight> edges = minSpanTreeOfKruskal(graph);
+        for(EdgeWithWeight e : edges){
+            System.out.println("(" + e.getVertex().getLabel() + "," + e.getAdjVertex().getLabel() + ") => 权值：" + e.getWeight());
         }
-        System.out.println();
-        for(UndirectedNetworkOfEdgeArray.EdgeWithIdx edge : graph.getEdgeArr()){
-            System.out.println("(" + edge.beginIdx + "," + edge.endIdx + ") => 权值：" + edge.weight);
-        }
-
     }
 
     /**
@@ -56,7 +63,7 @@ public class GrapOfMiniSpanTree {
      * 在所有u属于U，v属于V-U的边（u,v）属于E中找出一条权值最小的边(u0,v0)并入集合TE，同时v0并入U，直至U=V为止。
      * 此时TE中必有n-1条边，则T=（V,{TE}）为N的最小生成树
      * 返回构成最小生成树的边
-     * 时间复杂度O(n^2)
+     * 此算法的时间复杂度与顶点数有关，时间复杂度O(n^2) n为顶点数
      * @param g
      * @return
      */
@@ -102,15 +109,48 @@ public class GrapOfMiniSpanTree {
 
     /**
      * 克鲁斯卡尔算法
+     * 定义：
+     * 假设N=(V,{E})是连通图，则令最小生成树的初始状态为只有n个顶点而无边的非连通图T={V,{}},图中每个顶点自成一格连通分量。
+     * 在E中选择代价最小的边，若该边依附的顶点落在T中不同的连通分量上，则将此边加入到T中，否则舍弃此边而选择下一条代价最小的边。
+     * 依次类推，直至T中所有顶点都在同一连通分量上为止
+     *
+     * 该算法的时间复杂度与边数有关，时间复杂度为O(eloge),e为边数
      *
      * 返回构成最小生成树的边
-     * @param g
+     * @param g 边集数组表示的图
      * @return
      */
-    private static List<EdgeWithWeight> minSpanTreeOfKruskal(UndirectedNetworkOfAdjMatrix g){
-
-        return null;
+    private static List<EdgeWithWeight> minSpanTreeOfKruskal(UndirectedNetworkOfEdgeArray g){
+        Vertex[] vertexArr = g.getVertexArr();
+        UndirectedNetworkOfEdgeArray.EdgeWithIdx[] edgeArr = g.getEdgeArr();
+        int[] parent = new int[vertexArr.length];//用于验证是否形成环
+        List<EdgeWithWeight> rEdges = new ArrayList<>();
+        for(UndirectedNetworkOfEdgeArray.EdgeWithIdx edge : edgeArr){
+            int m = findParent(parent,edge.beginIdx);
+            int n = findParent(parent,edge.endIdx);
+            if(m != n){
+                //不构成环
+                parent[n] = m;
+                rEdges.add(new EdgeWithWeight(vertexArr[edge.beginIdx],vertexArr[edge.endIdx],edge.weight));
+            }
+        }
+        return rEdges;
     }
+
+    /**
+     * 找出顶点
+     * @param parent
+     * @param idx
+     * @return
+     */
+    private static int findParent(int[] parent, int idx) {
+        int rdx = idx;
+        while (parent[rdx] != 0){
+            rdx = parent[rdx];
+        }
+        return rdx;
+    }
+
 
     /**
      * 构造无向网图（邻接矩阵）
