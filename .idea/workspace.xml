@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef9a62a-5396-4a65-a9f8-ee6a7e18aa85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/datastructure/linkedlist/ConvertBinarySearchTreeToDoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1432">
+            <state relative-caret-position="345">
               <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
@@ -38,15 +38,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="48" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="48" />
+            <state relative-caret-position="690">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg39.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg46.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg50.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="145" column="6" lean-forward="true" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -72,6 +111,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg09.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg39.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg46.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg50.java" />
       </list>
     </option>
   </component>
@@ -108,19 +151,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="31" />
-    <option name="width" value="1410" />
-    <option name="height" value="806" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-352" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,66 +164,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmic-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmic" type="462c0819:PsiDirectoryNode" />
-              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -210,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Alg50">
     <configuration name="Alg13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithmic.other.lintcode.Alg13" />
       <module name="algorithmic" />
@@ -224,8 +205,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Alg50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithmic.other.lintcode.Alg50" />
+      <module name="algorithmic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithmic.other.lintcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Alg13" />
+      <item itemvalue="Application.Alg50" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Alg50" />
         <item itemvalue="Application.Alg13" />
       </list>
     </recent_temporary>
@@ -241,18 +240,21 @@
       <option name="presentableId" value="Default" />
       <updated>1559215604567</updated>
       <workItem from="1559215608895" duration="6717000" />
-      <workItem from="1559375348694" duration="5282000" />
+      <workItem from="1559375348694" duration="10370000" />
+      <workItem from="1559436933722" duration="3472000" />
+      <workItem from="1559647682609" duration="1520000" />
+      <workItem from="1560333225154" duration="10000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11999000" />
+    <option name="totallyTimeSpent" value="32079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="-352" y="-1057" width="1920" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15228967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,22 +264,22 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32968536" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.40902874" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.40809628" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26454446" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.2446352" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.18210863" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -332,9 +334,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/datastructure/linkedlist/ConvertBinarySearchTreeToDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1432">
+        <state relative-caret-position="345">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
@@ -348,11 +351,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="48" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="48" />
+        <state relative-caret-position="690">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="563" column="6" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="145" column="6" lean-forward="true" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithmic/other/lintcode/Alg50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
