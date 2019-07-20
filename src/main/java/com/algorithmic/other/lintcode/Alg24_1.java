@@ -4,6 +4,12 @@ package com.algorithmic.other.lintcode;
  * @author: wenqiang
  * @date: 2019-07-14 16:35
  *
+ * 24. LFU缓存
+ *
+ * LFU是一个著名的缓存算法
+ * 对于容量为k的缓存，如果缓存已满，并且需要逐出其中的密钥，则最少使用的密钥将被踢出。
+ * 实现LFU中的set 和 get
+ *
  * 自己的实现方案，没有考虑性能
  */
 public class Alg24_1 {
