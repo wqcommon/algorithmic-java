@@ -10,6 +10,14 @@ package com.algorithmic.other.lintcode;
  */
 public class Alg43 {
 
+
+    /**
+     * localMax[i][k] 表示前i个数，取k个子数组，包含第i个数的Maximum Sum
+     * globalMax[i][k] 表示前i个数，取k个子数组，可以不包含第i个数的Maximum Sum
+     * @param nums
+     * @param k
+     * @return
+     */
     public int maxSubArray(int[] nums, int k) {
         // write your code here
         if (nums.length < k){
@@ -17,6 +25,7 @@ public class Alg43 {
             return 0;
         }
         int len = nums.length;
+
 
         int[][] localMax = new int[k+1][len + 1];//包含第i个元素
         int[][] globalMax = new int[k+1][len + 1];//不一定包含第i个元素
